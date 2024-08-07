@@ -7,8 +7,6 @@
 # # app = Flask(__name__)
 # # CORS(app)
 
-# # # openai.api_key = 'YOUR_OPENAI_API_KEY'
-# # openai.api_key = 'sk-proj-nqDkti12c78iiUEtwnVUT3BlbkFJTxX4m3iBOQQUWcsYcx4C'
 
 # # # Load the restaurant data
 # # df = pd.read_csv('cleaned_restaurants.csv')
@@ -50,12 +48,10 @@
 # app = Flask(__name__)
 # CORS(app)
 
-# # API Keys
-# # GOOGLE_MAPS_API_KEY = 'YOUR_GOOGLE_MAPS_API_KEY'
-# # openai.api_key = 'YOUR_OPENAI_API_KEY'
+# API Keys
+# GOOGLE_MAPS_API_KEY = 'MY_GOOGLE_MAPS_API_KEY'
+# openai.api_key = 'MY_OPENAI_API_KEY'
 
-# GOOGLE_MAPS_API_KEY = 'AIzaSyDl9CWJ-7gFEqrgNLHh_i1EVRD6RohEPbw' 
-# openai.api_key = 'sk-proj-nqDkti12c78iiUEtwnVUT3BlbkFJTxX4m3iBOQQUWcsYcx4C'
 
 
 # # Load the restaurant data
@@ -146,11 +142,9 @@ app = Flask(__name__)
 CORS(app)
 
 # API Keys
-# GOOGLE_MAPS_API_KEY = 'YOUR_GOOGLE_MAPS_API_KEY'
-# openai.api_key = 'YOUR_OPENAI_API_KEY'
+GOOGLE_MAPS_API_KEY = 'MY_GOOGLE_MAPS_API_KEY'
+openai.api_key = 'MY_OPENAI_API_KEY'
 
-GOOGLE_MAPS_API_KEY = 'AIzaSyDl9CWJ-7gFEqrgNLHh_i1EVRD6RohEPbw' 
-openai.api_key = 'sk-proj-nqDkti12c78iiUEtwnVUT3BlbkFJTxX4m3iBOQQUWcsYcx4C'
 
 
 logging.basicConfig(level=logging.DEBUG)
