@@ -39,8 +39,7 @@ if __name__ == "__main__":
     radius_miles = float(sys.argv[1])
     radius_meters = radius_miles * 1609.34  # Convert miles to meters
 
-    # api_key = 'YOUR_GOOGLE_MAPS_API_KEY'
-    api_key = 'AIzaSyDl9CWJ-7gFEqrgNLHh_i1EVRD6RohEPbw' 
+    api_key = 'MY_GOOGLE_MAPS_API_KEY'
     lat, lng = get_location_from_ip()
     logging.debug(f'Lat: {lat}, Lng: {lng}')
     restaurants = get_restaurants(api_key, lat, lng, radius_meters)
